@@ -1,0 +1,18 @@
+{
+  "name": "academic-ssi-protocol",
+  "version": "1.0.0",
+  "description": "Script Pengujian MVP SSI STT Terpadu Nurul Fikri",
+  "main": "index.js",
+  "scripts": {
+    "test:gas": "node scripts/gas-tracker.js",
+    "test:issuer": "node scripts/mock-issuer.js",
+    "test:perf": "node scripts/performance-tester.js"
+  },
+  "dependencies": {
+    "did-jwt": "^8.0.4",
+    "did-resolver": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "ethr-did-resolver": "^10.1.5"
+  }
+}
